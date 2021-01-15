@@ -1,0 +1,133 @@
+html {
+    scroll-behavior: smooth;
+    overflow: visible;
+}
+
+body {
+    border-top: 0.7rem solid #222;
+    background-color: #333;
+    font-family: 'Roboto', sans-serif;
+}
+
+.sidenav {
+    border-right: 1px solid #db3737;
+    text-align: center;
+    height: 100%;
+    width: 15%;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    background-image: url('../images/sidenav.jpg');
+    background-color: #222;
+    overflow: auto;
+}
+
+.sidenav a {
+    display: block;
+    color: grey;
+    padding: 7px 16px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    transition-duration: 0.5s;
+    text-decoration: white;
+}
+
+.sidenav a:hover {
+    color: white;
+    transition-duration: 0.5s;
+}
+
+.sidenav .active {
+    color: white;
+}
+
+.namesection1 {
+    color: white;
+    padding-top: 20%;
+}
+
+.namesection2 {
+    color: white;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 160%;
+    font-family: 'Raleway', sans-serif;
+}
+
+.namesection3 {
+    margin-top: 2%;
+    font-size: 120%;
+    padding-bottom: 100%;
+    padding-left: 15%;
+    padding-right: 15%;
+    color: #888;
+}
+
+.namesectionicon {
+    font-size: 200%;
+    color: white;
+}
+
+/*
+.main {
+    margin-left: 15%;
+    padding: 0 10px;
+}
+*/
+
+.move {
+    padding-left: 15%;
+}
+
+strong {
+    font-weight: bolder;
+}
+
+.webtitle {
+    font-weight: bolder;
+    padding-top: 3%;
+    color: white;
+    text-align: center;
+    font-size: 300%;
+    font-family: 'Raleway', sans-serif;
+    text-shadow: 2px 0 3px black;
+}
+
+.undertitle {
+    padding-top: 10%;
+    color: white;
+    text-align: left;
+    padding-left: 35%;
+    font-size: 250%;
+    font-family: 'Raleway', sans-serif;
+    text-shadow: 2px 0 3px black;
+}
+
+.underundertitle {
+    color: #b0b0b0;
+    text-align: left;
+    font-size: 160%;
+    font-family: 'Raleway', sans-serif;
+    padding-left: 35%;
+    padding-right: 20%;
+}
+
+.imagebanner {
+    height: 33%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    background-color: #111;
+    background-size: cover;
+}
+
+.fadeinanimate {
+    animation: fadein ease 1s;
+}
+
+@keyframes fadein {
+    0% { opacity: 0; }
+    100%   { opacity: 1; }
+}

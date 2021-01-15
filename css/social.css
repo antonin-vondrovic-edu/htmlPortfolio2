@@ -1,0 +1,25 @@
+body {
+    background-image: url("../images/background.jpg");
+}
+
+.imagebanner {
+    background-image: url("../images/social.png");
+}
+
+.goaway {
+    padding-top: 5%;
+}
+
+.text {
+    color:white;
+    padding-left: 40%;
+    text-align: center;
+    text-decoration: white;
+    font-size: 150%;
+}
+
+.icon {
+    color:white;
+    font-size: 150%;
+    text-align: center;
+}

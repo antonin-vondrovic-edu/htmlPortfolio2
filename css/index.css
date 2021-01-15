@@ -1,0 +1,77 @@
+body {
+    background-image: url("../images/background.jpg");
+}
+
+.home-imagebanner {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    background-image: url("../images/homebackground.png");
+    background-color: #111;
+    background-size: cover;
+}
+
+.welcome {
+    padding-top: 15%;
+    color: white;
+    text-align: center;
+    font-size: 300%;
+    font-family: 'Raleway', sans-serif;
+    text-shadow: 2px 0 3px black;
+}
+
+.underwelcome {
+    font-size: 160%;
+    text-align: center;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    text-shadow: 2px 0 3px black;
+}
+
+.aboutme {
+    font-weight: bolder;
+    padding-top: 26%;
+    color: white;
+    text-align: center;
+    font-size: 300%;
+    font-family: 'Raleway', sans-serif;
+    text-shadow: 2px 0 3px black;
+}
+
+.textabout {
+    color: #b0b0b0;
+    text-align: left;
+    font-size: 160%;
+    font-family: 'Raleway', sans-serif;
+    padding-left: 35%;
+    padding-right: 20%;
+}
+
+.about-imagebanner {
+    height: 33%;
+    width: 100%;
+    margin-top: 49%;
+    position: absolute;
+    z-index: -1;
+    background-image: url("../images/projects.png");
+    background-size: cover;
+}
+
+.gallerypadding {
+    padding: 4% 5% 5% 20%;
+}
+
+.flexbox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.imgstyle {
+    padding-bottom: 5%;
+}
+
+.imagebanner {
+    background-image: url("../images/gallery.png");
+}

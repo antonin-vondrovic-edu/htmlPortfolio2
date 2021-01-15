@@ -1,0 +1,22 @@
+body {
+    background-image: url("../images/background.jpg");
+}
+
+.gallerypadding {
+    padding: 4% 5% 5% 20%;
+}
+
+.flexbox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.imgstyle {
+    padding-bottom: 5%;
+}
+
+.imagebanner {
+    background-image: url("../images/gallery.png");
+}
+
