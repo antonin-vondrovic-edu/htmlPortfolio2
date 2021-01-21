@@ -1,19 +1,38 @@
 .name {
-    padding-top: 15%;
+    padding-top: 12%;
     color: white;
     text-align: left;
     padding-left: 10%;
-    font-size: 300%;
-    font-family: 'Roboto', sans-serif;
+    font-size: 73px;
+    font-family: 'Coolvetica', sans-serif;
+    line-height: 67px;
+    margin-bottom: 1%;
 }
 
 .undername {
-    margin-top: 20px;
-    font-size: 11px;
+    font-size: 14px;
     letter-spacing: 3px;
     text-align: left;
     padding-left: 10%;
     color: #8d8d8d;
     font-family: 'Open Sans', sans-serif;
     font-weight: normal;
+}
+
+.contactbutton {
+    padding-top: 3%;
+    padding-left: 10%;
+}
+
+.contactbutton2 {
+    padding: 10px;
+    color: #08fdd8;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    text-align: left;
+    border: #08fdd8 solid 1px;
+    letter-spacing: 4px;
+    padding-left: 12px;
+    padding-right: 12px;
+    text-decoration: none;
 }

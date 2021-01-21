@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Coolvetica;
+    src: url("../font/coolvetica.ttf");
+}
+
 html {
     scroll-behavior: smooth;
     overflow: visible;
@@ -17,6 +22,7 @@ body {
     top: 0;
     left: 0;
     background-color: #181818;
+    padding-top: 12%;
 }
 
 .sidenav a {
@@ -27,19 +33,39 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 70%;
     font-weight: bolder;
-    transition-duration: 0.5s;
     text-decoration: white;
-    padding-top: 50%;
+    padding-top: 80%;
+    transition: all 0.3s ease-out;
 }
 
-.nav {
-    text-align: center;
-    padding-top: 150%;
+.socialsbox {
+    z-index: 8;
+}
+
+.socials {
+    list-style-type: none;
+    font-size: 500%;
+    color: grey;
+}
+
+.navicon {
+    font-size: 220%;
 }
 
 .sidenav a:hover {
-    color: white;
-    transition-duration: 0.5s;
+    color: #08fdd8;
+    transition: all 0.3s ease-out;
+}
+
+.navicon:hover:before {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0;
+}
+
+.navicon:hover:after {
+    font-family: 'Open Sans', sans-serif;
+    content: attr(data-hover);
+    font-size: 50%;
 }
 
 .sidenav .active {
@@ -47,12 +73,6 @@ body {
 }
 
 .sidenavicon {
-    z-index: 5;
-    font-size: 200%;
-    color: white;
-}
-
-.sidenaviconbackground {
     height: 8.6%;
     width: 3.1%;
     position: fixed;
@@ -60,6 +80,9 @@ body {
     top: 0;
     left: 0;
     background-color: #070707;
+    background-image: url("../images/antonin2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .move {
