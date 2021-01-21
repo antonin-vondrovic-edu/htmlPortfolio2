@@ -1,0 +1,20 @@
+.aboutundername {
+    padding-right: 50%;
+}
+
+.timeline {
+    padding-left: 10%;
+    padding-top: 2%;
+}
+
+.picturecontainer {
+    position: absolute;
+    top: 18%;
+    right: 8%;
+    background-image: url("../images/jairlflip.png");
+    height: 700px;
+    width: 500px;
+    background-size: cover;
+    border: #181818 solid 5px;
+    border-radius: 7px;
+}

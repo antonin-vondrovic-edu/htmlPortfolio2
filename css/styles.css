@@ -139,3 +139,44 @@ strong {
     0% { opacity: 0; }
     100%   { opacity: 1; }
 }
+
+.name {
+    padding-top: 12%;
+    color: white;
+    text-align: left;
+    padding-left: 10%;
+    font-size: 73px;
+    font-family: 'Coolvetica', sans-serif;
+    line-height: 67px;
+    margin-bottom: 1%;
+}
+
+.undername {
+    font-size: 14px;
+    letter-spacing: 3px;
+    text-align: left;
+    padding-left: 10%;
+    color: #8d8d8d;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+}
+
+.name2 {
+    padding-top: 7.8%;
+    color: #08fdd8;
+    text-align: left;
+    padding-left: 9.5%;
+    font-size: 73px;
+    font-family: 'Coolvetica', sans-serif;
+    line-height: 67px;
+    margin-bottom: 2.5%;
+}
+
+.undername2 {
+    font-size: 16px;
+    text-align: left;
+    padding-left: 10%;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+}
