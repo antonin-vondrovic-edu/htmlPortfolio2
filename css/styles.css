@@ -46,7 +46,7 @@ body {
 }
 
 .navicon {
-    font-size: 3vh;
+    font-size: 2.5vh;
 }
 
 .socialsbox {
@@ -58,7 +58,7 @@ body {
 }
 
 .socialicon {
-    font-size: 3vh;
+    font-size: 2.5vh;
     position:fixed;
     bottom:1%;
     left: 0.9%;
@@ -66,7 +66,7 @@ body {
 }
 
 .socialicon2 {
-    font-size: 3vh;
+    font-size: 2.5vh;
     position:fixed;
     bottom:5%;
     left: 0.9%;
@@ -74,7 +74,7 @@ body {
 }
 
 .socialicon3 {
-    font-size: 3vh;
+    font-size: 2.5vh;
     position:fixed;
     bottom:9%;
     left: 0.9%;
@@ -82,7 +82,7 @@ body {
 }
 
 .socialicon4 {
-    font-size: 3vh;
+    font-size: 2.5vh;
     position:fixed;
     bottom:13%;
     left: 0.9%;
