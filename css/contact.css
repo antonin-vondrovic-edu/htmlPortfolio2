@@ -1,15 +1,14 @@
 .container {
     text-align: left;
-    padding-left: 8%;
-    animation: container ease 0.3s;
+    padding-left: 10%;
+    padding-top: 3%;
 }
 
 form {
     text-align: left;
-    color: darkslategrey;
+    color: white;
     display: inline-block;
     font-weight: bold;
-    width: 614px;
 }
 
 input {
@@ -19,17 +18,20 @@ input {
 
 .input_field {
     height: 50px;
-    width: 100%;
+    width: 60%;
     padding: 0 20px;
 }
 
 .half {
-    width: 49%;
+    width: 27.1%;
     padding: 0 20px;
+    margin-bottom: 10px;
+    margin-right: 10px;
 }
 
 textarea {
     background: #2b2b2b;
+    width: 60%
 }
 
 input::placeholder {
@@ -37,11 +39,13 @@ input::placeholder {
 }
 
 textarea::placeholder {
-    padding: 5px;
+    padding: 15px;
 }
 
 .button-container {
-    text-align: right;
+    text-align: center;
+    margin-top: 25px;
+    margin-left: 200px;
 }
 
 .submit-button {
@@ -65,9 +69,20 @@ input {
     padding: 10px 15px;
     border: 0 solid white;
     text-align: center;
-
 }
 
-li {
-   list-style-type: none;
+.zprava {
+    margin-top: 10px;
+    padding-bottom: 100px;
+    padding-right: 38px;
+    resize: vertical;
+    text-align: start;
+    border: none;
+}
+
+.thefuckingmapohmygod {
+    position:fixed;
+    right:0;
+    top:0;
+    background-color:white;
 }

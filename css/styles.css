@@ -6,6 +6,12 @@
 html {
     scroll-behavior: smooth;
     overflow: visible;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 body {
@@ -22,7 +28,7 @@ body {
     top: 0;
     left: 0;
     background-color: #181818;
-    padding-top: 12%;
+    padding-top: 14%;
 }
 
 .sidenav a {
@@ -34,22 +40,73 @@ body {
     font-size: 70%;
     font-weight: bolder;
     text-decoration: white;
-    padding-top: 80%;
+    padding-top: 40%;
+    padding-bottom: 40%;
     transition: all 0.3s ease-out;
+}
+
+.navicon {
+    font-size: 3vh;
 }
 
 .socialsbox {
     z-index: 8;
+    bottom: 0;
+    left: 0;
+    position:fixed;
+    transition: all 0.3s ease-out;
 }
 
-.socials {
-    list-style-type: none;
-    font-size: 500%;
-    color: grey;
+.socialicon {
+    font-size: 3vh;
+    position:fixed;
+    bottom:1%;
+    left: 0.9%;
+    color:gray;
 }
 
-.navicon {
-    font-size: 220%;
+.socialicon2 {
+    font-size: 3vh;
+    position:fixed;
+    bottom:5%;
+    left: 0.9%;
+    color:gray;
+}
+
+.socialicon3 {
+    font-size: 3vh;
+    position:fixed;
+    bottom:9%;
+    left: 0.9%;
+    color:gray;
+}
+
+.socialicon4 {
+    font-size: 3vh;
+    position:fixed;
+    bottom:13%;
+    left: 0.9%;
+    color:gray;
+}
+
+.socialicon:hover {
+    color: #08fdd8;
+    transition: all 0.3s ease-out;
+}
+
+.socialicon2:hover {
+    color: #08fdd8;
+    transition: all 0.3s ease-out;
+}
+
+.socialicon3:hover {
+    color: #08fdd8;
+    transition: all 0.3s ease-out;
+}
+
+.socialicon4:hover {
+    color: #08fdd8;
+    transition: all 0.3s ease-out;
 }
 
 .sidenav a:hover {
@@ -91,44 +148,6 @@ body {
 
 strong {
     font-weight: bolder;
-}
-
-.webtitle {
-    font-weight: bolder;
-    padding-top: 3%;
-    color: white;
-    text-align: center;
-    font-size: 300%;
-    font-family: 'Raleway', sans-serif;
-    text-shadow: 2px 0 3px black;
-}
-
-.undertitle {
-    padding-top: 10%;
-    color: white;
-    text-align: left;
-    padding-left: 35%;
-    font-size: 250%;
-    font-family: 'Raleway', sans-serif;
-    text-shadow: 2px 0 3px black;
-}
-
-.underundertitle {
-    color: #b0b0b0;
-    text-align: left;
-    font-size: 160%;
-    font-family: 'Raleway', sans-serif;
-    padding-left: 35%;
-    padding-right: 20%;
-}
-
-.imagebanner {
-    height: 33%;
-    width: 100%;
-    position: absolute;
-    z-index: -1;
-    background-color: #111;
-    background-size: cover;
 }
 
 .fadeinanimate {
@@ -179,4 +198,5 @@ strong {
     color: white;
     font-family: 'Open Sans', sans-serif;
     font-weight: normal;
+    line-height: 23px;
 }

@@ -1,0 +1,20 @@
+.fuckingspecialkidthisguy {
+    padding-top: 12.5%;
+}
+
+.picturecontainer {
+    position: absolute;
+    top: 29%;
+    right: 8%;
+    background-image: url("../images/skills.png");
+    height: 300px;
+    width: 700px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.mylink {
+    cursor: pointer;
+    color: #08fdd8;
+    text-decoration: #08fdd8;
+}
